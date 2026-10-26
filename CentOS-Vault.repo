@@ -1,0 +1,17 @@
+[base]
+name=CentOS-7.4.1708 - Base
+baseurl=https://archive.kernel.org/centos-vault/7.4.1708/os/$basearch/
+gpgcheck=0
+enabled=1
+
+[updates]
+name=CentOS-7.4.1708 - Updates
+baseurl=https://archive.kernel.org/centos-vault/7.4.1708/updates/$basearch/
+gpgcheck=0
+enabled=1
+
+[extras]
+name=CentOS-7.4.1708 - Extras
+baseurl=https://archive.kernel.org/centos-vault/7.4.1708/extras/$basearch/
+gpgcheck=0
+enabled=1

@@ -1,0 +1,13 @@
+[remi-safe]
+name=Remi Safe EL7 - libzip5
+baseurl=https://rpms.remirepo.net/enterprise/7/safe/$basearch/
+gpgcheck=0
+enabled=1
+includepkgs=libzip5
+
+[remi]
+name=Remi EL7 - libzip5-devel
+baseurl=https://rpms.remirepo.net/enterprise/7/remi/$basearch/
+gpgcheck=0
+enabled=1
+includepkgs=libzip5-devel
