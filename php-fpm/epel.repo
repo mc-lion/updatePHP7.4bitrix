@@ -1,0 +1,5 @@
+[epel]
+name=Extra Packages for Enterprise Linux 7 - archive
+baseurl=https://archives.fedoraproject.org/pub/archive/epel/7/$basearch/
+gpgcheck=0
+enabled=1
